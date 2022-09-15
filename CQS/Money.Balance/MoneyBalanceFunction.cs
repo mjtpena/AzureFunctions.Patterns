@@ -21,7 +21,7 @@ namespace RoosterWars.Functions.Services.MatchHistory.Arena
         public async Task<HttpResponseData> GetMoneyBalance([HttpTrigger(AuthorizationLevel.Function, "get", Route = "money/balance")]
         HttpRequestData req, string WalletAddress)
         {
-            _logger.LogInformation("Started to query wallet's balance...");
+            _logger.LogInformation("Started to query user's balance...");
 
             var query = new MoneyBalanceQuery
             {
