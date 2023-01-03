@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "RedisCachePatterns.Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7172",
+      "launchBrowser": false
+    }
+  }
+}
